@@ -1,7 +1,5 @@
 # Headless Chrome Examples
 
-## (NodeJS)
-
 This repository contains examples of Chrome Headless usage through the  `chrome-remote-interface` NodeJS library.
 
 All examples presented here are forks of the [Sample API usage](https://github.com/cyrus-and/chrome-remote-interface#sample-api-usage) from the maintainers of the `chrome-remote-interface` package.
@@ -24,6 +22,8 @@ The above command will run an headless session of Chromium with the remote debug
 | 00-expression-evaluation | Shows how to evaluate a simple expression in the context of the page. |
 | 01-static-site-scraper | Inject a function into the context of the page to read information and return structured data. |
 | 02-dynamic-site-scraper | Waits for dynamically loaded content to be available, then injects scraping code. |
+| 03-watch-network| This example shows how to watch network activities and capture data |
+
 
 
 More on this topic:
@@ -31,5 +31,6 @@ More on this topic:
 - [Headless Chromium](https://chromium.googlesource.com/chromium/src/+/lkgr/headless/README.md)
 - [Chrome Debugging Protocol interface for Node.js
 ](https://github.com/cyrus-and/chrome-remote-interface)
+- [Chrome DevTools Protocol Viewer](https://chromedevtools.github.io/devtools-protocol/tot/)
 
-Author: Claudio d'Angelis
+Author: [Claudio d'Angelis](https://twitter.com/daw985)
