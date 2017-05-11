@@ -5,7 +5,7 @@ All examples presented here are forks of the [Sample API usage](https://github.c
 Before running examples below, make sure to start chrome (or chromium) with `--headless` flag:
 
 ```
-chromium
+chromium \
   --headless \
   --disable-gpu \
   --remote-debugging-port=9222
