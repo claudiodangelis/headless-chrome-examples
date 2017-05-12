@@ -20,9 +20,9 @@ The above command will run an headless session of Chromium with the remote debug
 | Example | Description |
 | --- | --- |
 | 01-expression-evaluation | Shows how to evaluate a simple expression in the context of the page. |
-| 02-static-site-scraper | Inject a function into the context of the page to read information and return structured data. |
-| 03-dynamic-site-scraper | Waits for dynamically loaded content to be available, then injects scraping code. |
-| 04-click-buttons | Performs clicks |
+| 02-click-buttons | Performs clicks |
+| 03-static-site-scraper | Inject a function into the context of the page to read information and return structured data. |
+| 04-dynamic-site-scraper | Waits for dynamically loaded content to be available, then injects scraping code. |
 | 05-watch-network| This example shows how to watch network activities and capture data |
 
 
